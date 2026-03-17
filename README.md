@@ -1,63 +1,107 @@
-# Financial KPI Dashboard (Excel)
+# Executive Financial KPI Dashboard (Excel)
 
 ## Overview
-This project builds a **single-page Financial KPI Dashboard in Excel** that consolidates financial and operational data into a clear analytical interface.
 
-The dashboard enables users to analyze business performance through comparisons such as:
+This project demonstrates an end-to-end financial KPI dashboard built in Microsoft Excel to monitor business performance across revenue, expenses, and operational efficiency.
 
-- Actual vs Plan
-- Current Year vs Prior Year
-- Performance trends over time
-- HR and operational activity
-
-The design follows a structured **financial modeling architecture**:
-
-Raw Data → Calculations → Dashboard
-
-This separation ensures scalability, maintainability, and dynamic updates when underlying data changes.
+The dashboard is designed for **executive-level decision-making**, enabling quick comparison of Actual vs Budget performance, trend analysis, and identification of cost variances across business units.
 
 ---
 
-# Dashboard Objectives
+## Key Features
 
-The KPI dashboard is designed to:
-
-- Consolidate financial and operational activities
-- Track key performance indicators across departments
-- Compare planned vs actual performance
-- Present insights on a single easy-to-read page
-- Enable interactive filtering and metric switching
-
-Core design principle:
-
-> Every chart should communicate the message instantly. If a viewer cannot understand the chart quickly, the design should be simplified.
+* Actual vs Budget comparison across multiple years
+* Year-over-Year (YoY) trend analysis for revenue and expenses
+* Business unit-wise expense breakdown
+* Interactive filtering using slicers (Region/State level)
+* Monthly performance tracking (Revenue, Expense, EBIT)
+* Hiring vs Termination impact on expenses
+* Customer and operational performance indicators
 
 ---
 
-# Workbook Structure
+## Dashboard Preview
 
-The Excel workbook is divided into **three layers**.
+![Dashboard Overview](screenshots/dashboard_overview.png)
 
-## 1. Raw Data (Input Layer)
+---
 
-These sheets store the original datasets used for calculations.
+## Tools & Techniques Used
 
-| Worksheet | Description |
-|----------|-------------|
-| Current Year Data | Monthly revenue, expense, and EBIT values by state |
-| Prior Year Data | Historical financial performance by department |
-| Historical Revenue | Multi-year revenue dataset |
-| Debtor Days | Accounts receivable aging data |
-| HR and Campaign | HR activity and marketing campaign data |
-| Customer Satisfaction | Survey metrics and satisfaction targets |
+* Microsoft Excel
+* Pivot Tables & Pivot Charts
+* Data Modeling (structured data, calculation layer)
+* Excel Formulas (IF, INDEX, MATCH, aggregation logic)
+* Data Visualization best practices
 
-### Current Year Dataset
+---
 
-Includes monthly values (January–December) for each state:
+## Data Structure
 
-- Actual Revenue
-- Planned Revenue
-- Actual Expense
-- Planned Expense
-- Actual EBIT
-- Planned EBIT
+The dashboard follows a structured approach:
+
+* **Data Layer**: Raw financial and operational data
+* **Transformation Layer**: Cleaned and structured dataset
+* **Calculation Layer**: KPI calculations and aggregations
+* **Presentation Layer**: Final dashboard with visuals and interactivity
+
+---
+
+## Key KPIs Tracked
+
+* Revenue (Actual vs Budget)
+* Expenses (by Business Unit)
+* Profit (derived)
+* Variance %
+* Trend Analysis (multi-year & monthly)
+* Operational Metrics (Hiring vs Termination)
+
+---
+
+## Business Value
+
+This dashboard helps stakeholders:
+
+* Identify performance gaps between Actual and Budget
+* Track cost overruns across departments
+* Monitor trends over time for better forecasting
+* Enable faster, data-driven decision-making
+
+---
+
+## How to Use
+
+1. Download the Excel file
+2. Open `Financial_KPI_Dashboard.xlsx`
+3. Navigate to the **Dashboard** sheet
+4. Use slicers (top-right) to filter by region/state
+5. Analyze KPIs and trends interactively
+
+---
+
+## Future Enhancements
+
+* Add Profit Margin (%) visualization
+* Introduce automated insight generation
+* Improve KPI cards for executive summary view
+* Enhance storytelling with dynamic commentary
+
+---
+
+## Author
+
+Stanley George
+Business Analyst | Data & Analytics
+
+---
+
+## Repository Structure
+
+```
+financial-kpi-dashboard/
+│
+├── Financial_KPI_Dashboard.xlsx
+├── README.md
+├── /screenshots
+│     └── dashboard_overview.png
+```
