@@ -22,7 +22,8 @@ The dashboard is designed for **executive-level decision-making**, enabling quic
 
 ## Dashboard Preview
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+<img width="825" height="478" alt="2026-03-17 14_48_53-FinancialKPI_START COPY - Excel (Product Activation Failed)" src="https://github.com/user-attachments/assets/cb56ad70-e7f1-40da-874c-567e590c07aa" />
+
 
 ---
 
