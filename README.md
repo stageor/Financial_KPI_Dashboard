@@ -4,7 +4,7 @@
 
 This project delivers an end-to-end financial KPI dashboard in MS Excel to monitor business performance across revenue, expenses, and operational efficiency.
 
-It is designed for executive decision-making, enabling quick comparison of Actual vs Budget, clear trend analysis, and direct visibility into cost variances across business units.
+It is designed for executive use, enabling quick Actual vs Budget comparisons, straightforward trend analysis, and clear visibility into cost variances across business units.
 
 ---
 
