@@ -1,7 +1,7 @@
 # Executive Financial KPI Dashboard (Excel)
 
 ## Overview
-This project develops a comprehensive financial KPI dashboard in MS Excel to track performance across revenue, expenses, and operational efficiency.
+Developed a comprehensive financial KPI dashboard in MS Excel to track performance across revenue, expenses, and operational efficiency.
 
 It is built for executive-level use, allowing quick Actual vs Budget comparisons, straightforward trend analysis, and clear visibility into cost variances across business units.
 
