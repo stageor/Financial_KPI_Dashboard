@@ -9,7 +9,7 @@ Designed for executive use, enabling rapid Actual vs Budget comparisons, clear t
 
 ## Key Features
 
-* Actual vs Budget comparison across multiple years
+* Enabled multi-year Actual vs Budget comparisons to support trend evaluation and long-term financial analysis.
 * Year-over-Year (YoY) trend analysis for revenue and expenses
 * Business unit-wise expense breakdown
 * Interactive filtering using slicers (Region/State level)
