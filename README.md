@@ -15,7 +15,7 @@ Designed executive use, enabling rapid Actual vs. Budget comparisons, clear tren
 * Interactive filtering using slicers (Region/State level)
 * Monthly performance tracking (Revenue, Expense, EBIT)
 * Hiring vs Termination impact on expenses
-* Customer and operational performance indicators
+* Customer & operational performance indicators
 
 ---
 
