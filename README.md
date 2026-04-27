@@ -3,7 +3,7 @@
 ## Overview
 Built an Excel-based financial KPI dashboard to track revenue, expenses, and overall operational performance.
 
-Designed executive use, enabling rapid Actual vs. Budget comparisons, clear trend analysis, & full visibility into cost variances across business units.
+Designed for executive use, enabling rapid actual vs. budget comparisons, clear trend analysis, and full visibility into cost variances across business units.
 
 ---
 
